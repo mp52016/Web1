@@ -11,7 +11,7 @@ div.top-nav{ font-family: "微软雅黑","Helvetica Neue","Helvetica","Arial","s
 div.top-nav a{ padding: 0 15px; text-align: center; display: inline-block; float: left;}
 a.logo-a{ font-family:"微软雅黑","Helvetica Neue","Helvetica","Arial","sans-serif"; font-size: 18px; font-weight: 700; padding-left: 36px; background:url(https://mp52016.github.io/Web1/home/logo.jpg) 0px 12px no-repeat;	display: inline-block;}
 div.sign{ float: right;}
-div.sign a{	display: inline-block; background:url(http://www.iyunmai.com/images/icon.png?t=20160808) -410px -1582px no-repeat; padding-left:22px; float: left;}
+div.sign a{	display: inline-block; background:url(https://mp52016.github.io/Web1/home/icon.png) -410px -1582px no-repeat; padding-left:22px; float: left;}
 
 div.content-0{ width: 1000px; margin: 0 auto; background-color: white;}
 
