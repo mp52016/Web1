@@ -1,0 +1,66 @@
+body{ margin:0; background-color: #f5f5f5;}
+
+a{ text-decoration: none;}
+
+.color-white{ color: white; }
+
+div.top{ background-color: gray; background-color: rgba(0,0,0,0.8);  height: 50px; }
+div.top1{ font-family: "微软雅黑","Helvetica Neue","Helvetica","Arial","sans-serif"; font-size: 14px; font-weight: 400; color: white; width: 960px; margin: 0 auto; line-height: 50px; height: 50px;}
+div.top a{ color: white;}
+div.top a:hover{ opacity: 0.7;}
+div.logo{ float: left;}
+div.top-nav{ font-family: "微软雅黑","Helvetica Neue","Helvetica","Arial","sans-serif"; font-size: 14px; font-weight: 400; margin:0 0 0 160px; overflow: hidden; float: left;}
+div.top-nav a{ padding: 0 15px; text-align: center; display: inline-block; float: left;}
+a.logo-a{ font-family:"微软雅黑","Helvetica Neue","Helvetica","Arial","sans-serif"; font-size: 18px; font-weight: 700; padding-left: 36px; background:url(https://mp52016.github.io/Web1/logo.jpg) 0px 12px no-repeat;	display: inline-block;}
+div.sign{ float: right;}
+div.sign a{	display: inline-block; background:url(https://mp52016.github.io/Web1/icon.png) -410px -1582px no-repeat; padding-left:22px; float: left;}
+
+div.content-0{ width: 960px; margin: 0 auto; background-color: white; }
+
+div.swiper{ height: 540px; position: relative; margin-bottom: 10px; }
+div.swiper-button{ font-size: 46px; color:#gray; position: absolute; top: 252px; opacity: 1;}
+div.swiper-button:hover{ cursor: pointer; }
+div.swiper-prev{ left: -100px; }
+div.swiper-next{ left: 1060px; }
+
+div.swiper-number{ position: absolute; top: 510px; left: 412px; z-index: 10;}
+span.swiper-span{ width: 40px; height: 20px; border-bottom: 2px solid white; display: inline-block; }
+span.swiper-span:hover{ cursor: pointer;}
+
+div.content-1{ height: 540px; background-color: white; border-bottom: 1px solid #ccc; margin-bottom: 10px; position: absolute; top: 0px; left: 0px; z-index: 0;}
+div.product-1{ position: relative;}
+div.img-1{ position: absolute; top: 0px; left:0px; opacity: 1; }
+div.description{ position: absolute; text-align: center; z-index: 10;}
+div.abs-1{ top: 200px; left: 50px; }
+div.abs-2{ top: 100px; left: 700px; }
+div.abs-3{ top: 200px; left: 50px; }
+h1.des-h1{ font-family:  "PingHei","Microsoft YaHei", "YaHei", "arial", "Hiragino Sans GB", "sans-serif"; transform: rotateX(90deg); transition: transform 3s; white-space: nowrap;}
+p.des-p2{ color:gray;position: relative; top: 100px;}
+p.des-p3{ position: relative; top: 100px;}
+.des-p3 a{ color: #10a570;}
+.des-p3 a:hover{ opacity: 0.7;}
+
+div.content-2{ font-family: "PingHei","Microsoft YaHei", "YaHei", "arial", "Hiragino Sans GB", sans-serif; color: black; height: 540px; position: relative;}
+div.content-20{ border-bottom: 1px solid #ccc; position: absolute; z-index: 0;}
+div.img-2{ position: absolute; top: 0px; left:0px;}
+div.product-2{ position: absolute; text-align: center;}
+div.abs-4{ top: 50px; left: 50px; }
+p.des-p{ color: gray; }
+p.p-name{ font-size: 35px; font-weight: 200;  margin-bottom: 15px;}
+p.p-intro{ font-size: 20px;	font-weight: 100; margin-top: 0;}
+a.p-button{	width: 132px; height: 48px;	line-height: 44px; border:2px solid #2fbbc0; border-radius: 25px; background: transparent; transition: color 0.3s ease-out;	color: #2fbbc0;	font-size: 18px; display: inline-block;	box-sizing: border-box;	position: relative;}
+a.p-button:hover{ color: white;}
+span.span1{	width: 100%; height: 100%;	border:2px solid #2fbbc0; border-radius: 25px; background-color:#2fbbc0; display: inline-block;	transform: scale(0); transition: transform 0.3s; position: absolute; left: -2px; top: -2px;	z-index: 1;}
+span.span2{	position: relative;	z-index: 10;}
+
+div.footer{font-family:  "PingHei","Microsoft YaHei", "YaHei", "arial", "Hiragino Sans GB", sans-serif; font-size: 12px; color: #666; border-top:1px solid #ccc; }
+div.footer p{margin: 0 0 4px 0; line-height: 24px; height: 24px;}
+div.footer1{width: 960px; overflow: hidden; margin:30px auto 10px auto;}
+div.info{float:left;}
+div.info span{font-weight: 400; font-size: 16px; color: #323232;}
+div.rights{float:right;}
+div.rights p{text-align: right;}
+div.rights a{color: gray;}
+div.rights a:hover{color: green;}
+span.line{width:1px; height: 10px;margin: 8px 10px 0px 10px;  background-color: #666; display: inline-block;}
+a.rights-a1{padding-left: 20px; background:url(http://www.iyunmai.com/images/icon.png?t=20160808) -400px -940px no-repeat; }
