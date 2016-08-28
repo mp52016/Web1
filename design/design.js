@@ -1,6 +1,7 @@
 var pos = new Array();
 var posOri = new Array();
 var num=4;
+var t1=500;
 
 $(document).ready(function(){ 
 
@@ -25,9 +26,24 @@ $(document).ready(function(){
 
    $("#poker").mouseleave(function(){
       funcOri();
+   }); 
+
+   $("#img1").mouseleave(function(){
+      funcStopR(1);
+      funcStopL(1);
+   }); 
+   $("#img2").mouseleave(function(){
+      funcStopR(2);
+      funcStopL(2);
    });  
-    
-   
+   $("#img3").mouseleave(function(){
+      funcStopR(3);
+      funcStopL(3);
+   }); 
+   $("#img4").mouseleave(function(){
+      funcStopR(4);
+      funcStopL(4);
+   });   
 	
     
 });
@@ -37,7 +53,7 @@ function funcR(m){
     for(var i=m+1;i<=num;i++)
     {
        var char="#img"+i;      
-       $(char).animate({"left":pos[i]},500);
+       $(char).animate({"left":pos[i]},t1);
     }    
    
 }
@@ -45,7 +61,7 @@ function funcR(m){
 function funcL(m){    
     
        var char="#img"+m;      
-       $(char).animate({"left":posOri[m]},500);      
+       $(char).animate({"left":posOri[m]},t1);      
    
 }
 
@@ -54,7 +70,7 @@ function funcOri(){
     for(var i=1;i<=num;i++)
     {
        var char="#img"+i;      
-       $(char).animate({"left":posOri[i]},500);
+       $(char).animate({"left":posOri[i]},t1);
     }    
    
 }
@@ -73,5 +89,19 @@ function funcPos(){
     }   
 }
 
+function funcStopR(m){
+ 
+    for(var i=m+1;i<=num;i++)
+    {
+       var char="#img"+i;      
+       $(char).stop();
+    }    
+   
+}
 
-
+function funcStopL(m){    
+    
+       var char="#img"+m;      
+       $(char).stop();      
+   
+}
